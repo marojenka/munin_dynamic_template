@@ -75,7 +75,7 @@ h2, h1{
 /*** ZOOM-ABLE GRAPHS VIEW ***/
 div.maincategory {
 	display: inline-block;
-	width: 150px;
+	width: 250px;
 	vertical-align: top;
 	text-align: center;
 	margin-left: 7px;
@@ -131,6 +131,16 @@ img.warn  { border: 2px solid #ffd300; }
 img.crit  { border: 2px solid #ff0000; }
 img.unkn  { border: 2px solid #ffaa00; }
 
+table {
+    margin: auto;
+}
+
+.service {
+    width: 500px;
+    margin: 20px;
+    display: inline-block;
+}
+
 /*** FOOTER ***/
 #footer {
 	margin-top: 3em;
@@ -144,7 +154,7 @@ img.unkn  { border: 2px solid #ffaa00; }
 
 /*** SERVICES LEGEND ***/
 #legend {
-	margin: 2px;
+	margin: auto;
 	border-collapse: collapse;
 	color: #666666;
 }
@@ -222,11 +232,3 @@ img.unkn  { border: 2px solid #ffaa00; }
 	min-width: 50%;
 	white-space: normal;
 }
-
-
-
-
-
-
-
-
